@@ -7,14 +7,98 @@ body {
     color: #fff;
     background: #000;
 }
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+nav ul li {
+    margin-left: 1rem;
+    padding-right: 2.5rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    flex: 1 1 auto;
+}
+
+section {
+    max-width: 600px;
+}
+
+
 img {
     max-width: 100%; /* DO NOT delete or change this line */
 }
+  
+#cougar {
+    background: #B26219;
+
+
+}
+
+#lion {
+    background: #ffcd82;
+
+}
+
+#lion p {
+    color: #000;
+}
+
+#tiger {
+    background: #FFBD82;
+}
+
+#tiger p {
+    color: #000;
+}
+
+
+.text { 
+    background: #fff;
+    margin: .5rem auto;
+    padding: 1.5rem 3rem;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-size: 15px;
+    color: #000000
+}
+
+.text h2 {
+    text-align: center; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px; 
+    font-size: 15px;
+}
+
+
 
 /* ----- SUGGESTED COLORS -----
     - ARTICLES
     B26219 cinnamon
-    FFD5AE pale peach
+    B26219 pale peach
     FFBD82 peach
     - LINKS
     379CB2 medium blue
@@ -38,5 +122,5 @@ a {
     color: #379CB2;
 }
 a:hover {
-    color: #82E8FF;
+    color: #8ae9fe;
 }
