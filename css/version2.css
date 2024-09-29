@@ -1,0 +1,135 @@
+/* you will add css rules for element selectors and IDs */
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    margin:0; 
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+nav ul li {
+    margin-left: 1rem;
+    padding-right: 2.5rem;
+}
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+    
+}
+article {
+    display: flex;
+    padding: 1.5rem 2rem;
+    justify-content: center;
+   
+  }
+
+.photo {
+    margin-top: 20px;
+    max-width: 650px;
+}
+.photo p {
+    max-width: 100%;
+}
+  
+#cougar {
+    background: #B26219;
+    color:#fff;
+
+}
+
+#cougar h2 {
+    color:#fff;
+}
+
+#cougar p {
+    color:#fff;
+    box-sizing: border-box;
+}
+
+#cougar a { 
+    color: #52dfff;
+}
+
+#cougar a:hover { 
+    color: #a4e9f8;
+}
+
+
+#lion {
+    background: #ffcd82;
+    color: #000;
+
+}
+
+#tiger {
+    background: #FFBD82;
+    color:#000;
+}
+
+section {
+    max-width: 700px;
+  }
+
+.text { 
+    margin: 0px;
+    padding: 0rem 1.5rem;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #000000
+}
+
+
+  
+footer {
+    text-align: center;
+    padding: 20px; 
+    font-size: 15px;
+}
+
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    B26219 pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #2c7e91;
+}
+a:hover {
+    color: #87e8fd;
+}
